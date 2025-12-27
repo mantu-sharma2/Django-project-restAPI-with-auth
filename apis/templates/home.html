@@ -1,0 +1,22 @@
+<!-- {% load static %} -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Profile homepage</title>
+  </head>
+  <body>
+    <h1 style="background-color: aqua">My Profile</h1>
+
+    <p style="color: violet"><strong>Username:</strong> {{ name }}</p>
+    <p><strong>Age:</strong> {{ age }}</p>
+
+    <p><strong>Skills:</strong></p>
+    <ul>
+      {% for skill in skills %}
+      <li>{{skill}}</li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+body {
+  background-color: darkblue;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: rgb(8, 8, 241);
+  text-align: center;
+}
+
+p {
+  color: #333;
+}
